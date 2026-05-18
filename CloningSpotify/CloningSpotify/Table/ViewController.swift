@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var table: UITableView!
+    
+    let dataSource = DataSource()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.table.dataSource = dataSource
         // Do any additional setup after loading the view.
     }
-
-
 }
 
