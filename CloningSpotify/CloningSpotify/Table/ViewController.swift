@@ -8,8 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var table: UITableView!
+    
+    @IBOutlet weak var footer: UIStackView!
     
     var dataSource = TableDataSource()
     
@@ -18,7 +20,7 @@ class ViewController: UIViewController {
         
         self.table.delegate = self
         self.table.dataSource = dataSource
-        // Do any additional setup after loading the view.
+        self.footer.maximumContentSizeCategory = .accessibilityMedium
     }
 }
 

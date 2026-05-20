@@ -1,0 +1,135 @@
+
+/* Class = "UILabel"; accessibilityHint = "Texto do album que estamos"; ObjectID = "3Tu-mi-JD7"; */
+"3Tu-mi-JD7.accessibilityHint" = "Texto do album que estamos";
+
+/* Class = "UILabel"; accessibilityLabel = "Nome do album"; ObjectID = "3Tu-mi-JD7"; */
+"3Tu-mi-JD7.accessibilityLabel" = "Nome do album";
+
+/* Class = "UILabel"; text = "Album radio based on From Me to You - Mono / Remastered"; ObjectID = "3Tu-mi-JD7"; */
+"3Tu-mi-JD7.text" = "Album radio based on From Me to You - Mono / Remastered";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de tocar música"; ObjectID = "5j8-Qc-YQj"; */
+"5j8-Qc-YQj.accessibilityHint" = "Botão de tocar música";
+
+/* Class = "UIButton"; accessibilityLabel = "Play"; ObjectID = "5j8-Qc-YQj"; */
+"5j8-Qc-YQj.accessibilityLabel" = "Play";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5j8-Qc-YQj"; */
+"5j8-Qc-YQj.normalTitle" = "Button";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de repetir música ou álbum."; ObjectID = "5kR-vm-hSQ"; */
+"5kR-vm-hSQ.accessibilityHint" = "Botão de repetir música ou álbum.";
+
+/* Class = "UIButton"; accessibilityLabel = "Rewind"; ObjectID = "5kR-vm-hSQ"; */
+"5kR-vm-hSQ.accessibilityLabel" = "Rewind";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5kR-vm-hSQ"; */
+"5kR-vm-hSQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; accessibilityHint = "Washed Out"; ObjectID = "E5j-a7-EK7"; */
+"E5j-a7-EK7.accessibilityHint" = "Washed Out";
+
+/* Class = "UILabel"; accessibilityLabel = "Nome do álbum"; ObjectID = "E5j-a7-EK7"; */
+"E5j-a7-EK7.accessibilityLabel" = "Nome do álbum";
+
+/* Class = "UILabel"; text = "Washed Out"; ObjectID = "E5j-a7-EK7"; */
+"E5j-a7-EK7.text" = "Washed Out";
+
+/* Class = "UITableViewCell"; accessibilityLabel = "Música da fila"; ObjectID = "HK8-Lx-3Tt"; */
+"HK8-Lx-3Tt.accessibilityLabel" = "Música da fila";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de marcar a música da fila"; ObjectID = "MMR-YI-pBx"; */
+"MMR-YI-pBx.accessibilityHint" = "Botão de marcar a música da fila";
+
+/* Class = "UIButton"; accessibilityLabel = "Botão de marcar"; ObjectID = "MMR-YI-pBx"; */
+"MMR-YI-pBx.accessibilityLabel" = "Botão de marcar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MMR-YI-pBx"; */
+"MMR-YI-pBx.normalTitle" = "Button";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de próxima música"; ObjectID = "PSA-OK-ZJt"; */
+"PSA-OK-ZJt.accessibilityHint" = "Botão de próxima música";
+
+/* Class = "UIButton"; accessibilityLabel = "Next"; ObjectID = "PSA-OK-ZJt"; */
+"PSA-OK-ZJt.accessibilityLabel" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PSA-OK-ZJt"; */
+"PSA-OK-ZJt.normalTitle" = "Button";
+
+/* Class = "UILabel"; accessibilityHint = "From Me to You"; ObjectID = "gOd-Af-6vU"; */
+"gOd-Af-6vU.accessibilityHint" = "From Me to You";
+
+/* Class = "UILabel"; accessibilityLabel = "Nome da música"; ObjectID = "gOd-Af-6vU"; */
+"gOd-Af-6vU.accessibilityLabel" = "Nome da música";
+
+/* Class = "UILabel"; text = "From Me to You - Mono / Remastered"; ObjectID = "gOd-Af-6vU"; */
+"gOd-Af-6vU.text" = "From Me to You - Mono / Remastered";
+
+/* Class = "UIButton"; accessibilityHint = "Botão que aleatoriza as músicas da fila"; ObjectID = "gpx-ag-O27"; */
+"gpx-ag-O27.accessibilityHint" = "Botão que aleatoriza as músicas da fila";
+
+/* Class = "UIButton"; accessibilityLabel = "Shuffle"; ObjectID = "gpx-ag-O27"; */
+"gpx-ag-O27.accessibilityLabel" = "Shuffle";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gpx-ag-O27"; */
+"gpx-ag-O27.normalTitle" = "Button";
+
+/* Class = "UILabel"; accessibilityHint = "Aviso de texto para musica que está tocando"; ObjectID = "iNR-GR-7wH"; */
+"iNR-GR-7wH.accessibilityHint" = "Aviso de texto para musica que está tocando";
+
+/* Class = "UILabel"; accessibilityLabel = "Tocando agora"; ObjectID = "iNR-GR-7wH"; */
+"iNR-GR-7wH.accessibilityLabel" = "Tocando agora";
+
+/* Class = "UILabel"; text = "Now Playing"; ObjectID = "iNR-GR-7wH"; */
+"iNR-GR-7wH.text" = "Now Playing";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de fechar modal"; ObjectID = "lNJ-eq-9Tu"; */
+"lNJ-eq-9Tu.accessibilityHint" = "Botão de fechar modal";
+
+/* Class = "UIButton"; accessibilityLabel = "Fechar"; ObjectID = "lNJ-eq-9Tu"; */
+"lNJ-eq-9Tu.accessibilityLabel" = "Fechar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lNJ-eq-9Tu"; */
+"lNJ-eq-9Tu.normalTitle" = "Button";
+
+/* Class = "UIImageView"; accessibilityHint = "Beatles"; ObjectID = "lWI-Ns-Xxy"; */
+"lWI-Ns-Xxy.accessibilityHint" = "Beatles";
+
+/* Class = "UIImageView"; accessibilityLabel = "Imagem da música"; ObjectID = "lWI-Ns-Xxy"; */
+"lWI-Ns-Xxy.accessibilityLabel" = "Imagem da música";
+
+/* Class = "UILabel"; accessibilityHint = "Próximas músicas a serem tocadas"; ObjectID = "nRP-Tq-OZ0"; */
+"nRP-Tq-OZ0.accessibilityHint" = "Próximas músicas a serem tocadas";
+
+/* Class = "UILabel"; accessibilityLabel = "Título da fila"; ObjectID = "nRP-Tq-OZ0"; */
+"nRP-Tq-OZ0.accessibilityLabel" = "Título da fila";
+
+/* Class = "UILabel"; text = "Next From: From Me to You - Mono / Remastered"; ObjectID = "nRP-Tq-OZ0"; */
+"nRP-Tq-OZ0.text" = "Next From: From Me to You - Mono / Remastered";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ovq-Es-3yR"; */
+"ovq-Es-3yR.normalTitle" = "Button";
+
+/* Class = "UILabel"; accessibilityHint = "Artista ou álbum que a música está inserida."; ObjectID = "rub-7A-T1G"; */
+"rub-7A-T1G.accessibilityHint" = "Artista ou álbum que a música está inserida.";
+
+/* Class = "UILabel"; accessibilityLabel = "Albúm ou artista"; ObjectID = "rub-7A-T1G"; */
+"rub-7A-T1G.accessibilityLabel" = "Albúm ou artista";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "rub-7A-T1G"; */
+"rub-7A-T1G.text" = "label";
+
+/* Class = "UILabel"; accessibilityLabel = "Título da música"; ObjectID = "vL4-JW-FVU"; */
+"vL4-JW-FVU.accessibilityLabel" = "Título da música";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "vL4-JW-FVU"; */
+"vL4-JW-FVU.text" = "label";
+
+/* Class = "UIButton"; accessibilityHint = "Botão de voltar a música"; ObjectID = "yoU-qd-fPU"; */
+"yoU-qd-fPU.accessibilityHint" = "Botão de voltar a música";
+
+/* Class = "UIButton"; accessibilityLabel = "Voltar"; ObjectID = "yoU-qd-fPU"; */
+"yoU-qd-fPU.accessibilityLabel" = "Voltar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yoU-qd-fPU"; */
+"yoU-qd-fPU.normalTitle" = "Button";
