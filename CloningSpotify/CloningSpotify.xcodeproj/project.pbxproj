@@ -21,6 +21,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		A088E32B2FBF9A040064FD98 /* ProgrammaticView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProgrammaticView;
+			sourceTree = "<group>";
+		};
 		EF9453EB2FB668F20058D30C /* CloningSpotify */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -47,6 +52,7 @@
 			children = (
 				EF9453EB2FB668F20058D30C /* CloningSpotify */,
 				EF9453EA2FB668F20058D30C /* Products */,
+				A088E32B2FBF9A040064FD98 /* ProgrammaticView */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +80,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				A088E32B2FBF9A040064FD98 /* ProgrammaticView */,
 				EF9453EB2FB668F20058D30C /* CloningSpotify */,
 			);
 			name = CloningSpotify;
