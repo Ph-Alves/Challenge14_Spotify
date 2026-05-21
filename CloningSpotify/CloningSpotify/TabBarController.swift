@@ -13,13 +13,19 @@ class TabBarController: UITabBarController {
     let selectedColor = UIColor.white
     let unselectedColor = UIColor.gray
     let profileSearchView = UIHostingController(rootView: PlaylistSearchView())
+    
+    let screenQueue: UIStoryboard = UIStoryboard(name: "Queue", bundle: nil)
+    lazy var storyboardViewController = screenQueue.instantiateInitialViewController() as! StoryboardViewController
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         profileSearchView.tabBarItem = UITabBarItem(title: "Playlist Search", image: UIImage(systemName: "magnifyingglass"), tag: 0)
+        storyboardViewController.tabBarItem = UITabBarItem(title: "Storyboard", image: UIImage(systemName: "distribute.horizontal.fill"), tag: 1)
         
         viewControllers = [
-            UINavigationController(rootViewController: profileSearchView)
+            UINavigationController(rootViewController: profileSearchView),
+            UINavigationController(rootViewController: storyboardViewController)
         ]
         
         tabBar.tintColor = selectedColor
