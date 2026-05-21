@@ -8,22 +8,29 @@
 import SwiftUI
 
 struct CustomPlaylist: View {
+    @ScaledMetric var playlistPicSize: CGFloat = 67
+
     var body: some View {
         HStack {
             Image("Front Left")
                 .resizable()
-                .frame(width: 67, height: 67)
+                .frame(width: playlistPicSize, height: playlistPicSize)
                 .padding(.trailing)
+            
             VStack(alignment: .leading) {
                 Text("Front Left")
+                    .lineLimit(1)
                     .font(.headline)
                 Text("Playlist • Spotify")
+                    .lineLimit(2)
                     .font(.subheadline)
                     .foregroundStyle(.libraryGray)
             }
         }
         .padding(.init(top: 0, leading: 0, bottom: 8, trailing: 0))
         .frame(maxWidth: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
     }
 }
 

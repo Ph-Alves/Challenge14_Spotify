@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct FilterButton: View {
-    var buttonLabel: String = ""
+    var buttonLabel: LocalizedStringResource
+    
     var body: some View {
         Button {
-            print("\(buttonLabel) clicado")
+            print("\(String(localized: buttonLabel)) clicado")
         } label: {
             Text(buttonLabel)
-                .foregroundStyle(.white)
+                .lineLimit(2)
+                .foregroundStyle(.foreground)
                 .font(.caption)
                 .fontWeight(.medium)
                 .padding(14)
@@ -25,6 +27,7 @@ struct FilterButton: View {
                 .stroke(Color.spotifyGray2, lineWidth: 1)
         )
         .buttonBorderShape(.capsule)
+        .accessibilityHint("Tap to filter your Library")
     }
 }
 
