@@ -1,0 +1,350 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ by %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ by %2$@"
+          }
+        }
+      }
+    },
+    "%@ photo" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة %@"
+          }
+        }
+      }
+    },
+    "1.629,592 likes" : {
+
+    },
+    "6 hours 48 minutes" : {
+
+    },
+    "Add playlist to favorites" : {
+
+    },
+    "Albuns" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألبونس"
+          }
+        }
+      }
+    },
+    "Artist" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فنان"
+          }
+        }
+      }
+    },
+    "Artists" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفنانين"
+          }
+        }
+      }
+    },
+    "BEATSPILL+" : {
+
+    },
+    "Bluetooth" : {
+
+    },
+    "Bluetooth conected to BEATSPILL+" : {
+
+    },
+    "Change current device connected by bluetooth" : {
+
+    },
+    "Change view format" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغيير تنسيق العرض"
+          }
+        }
+      }
+    },
+    "Create" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يخلق"
+          }
+        }
+      }
+    },
+    "Download" : {
+
+    },
+    "Download songs from playlist" : {
+
+    },
+    "E" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هـ"
+          }
+        }
+      }
+    },
+    "Explicit" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صريح"
+          }
+        }
+      }
+    },
+    "Find in playlist" : {
+
+    },
+    "Find songs in playlist" : {
+
+    },
+    "Front Left" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الجهة الأمامية اليسرى"
+          }
+        }
+      }
+    },
+    "Heart" : {
+
+    },
+    "Les" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les"
+          }
+        }
+      }
+    },
+    "Liked Songs" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأغاني المفضلة"
+          }
+        }
+      }
+    },
+    "More" : {
+
+    },
+    "More option about song" : {
+
+    },
+    "More options in playlist" : {
+
+    },
+    "New Episodes" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حلقات جديدة"
+          }
+        }
+      }
+    },
+    "Now and approved indie pop. Cover: No Rome" : {
+
+    },
+    "Number of likes" : {
+
+    },
+    "Pause" : {
+
+    },
+    "Pinned item" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنصر المثبت"
+          }
+        }
+      }
+    },
+    "Play" : {
+
+    },
+    "Playlist" : {
+
+    },
+    "Playlist • 58 songs" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة التشغيل • 58 أغنية"
+          }
+        }
+      }
+    },
+    "Playlist • Spotify" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة التشغيل • Spotify"
+          }
+        }
+      }
+    },
+    "Playlist time" : {
+
+    },
+    "Playlists" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قوائم التشغيل"
+          }
+        }
+      }
+    },
+    "Podcasts & shows" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البودكاست والبرامج"
+          }
+        }
+      }
+    },
+    "Recently played" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم تشغيله مؤخراً"
+          }
+        }
+      }
+    },
+    "Search bar" : {
+
+    },
+    "Song • Childish Gambino" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أغنية • Childish Gambino"
+          }
+        }
+      }
+    },
+    "Song artist" : {
+
+    },
+    "Song name" : {
+
+    },
+    "Song playing %@ by %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Song playing %1$@ by %2$@"
+          }
+        }
+      }
+    },
+    "Sort" : {
+
+    },
+    "Sort by" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فرز حسب"
+          }
+        }
+      }
+    },
+    "Spotify" : {
+
+    },
+    "Spotify icon" : {
+
+    },
+    "Start playlist" : {
+
+    },
+    "Tap to filter your Library" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لتصفية مكتبتك"
+          }
+        }
+      }
+    },
+    "Updated 2 days ago" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم التحديث قبل يومين"
+          }
+        }
+      }
+    },
+    "User Profile" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملف تعريف المستخدم"
+          }
+        }
+      }
+    },
+    "Your Library" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مكتبتك"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.2"
+}
