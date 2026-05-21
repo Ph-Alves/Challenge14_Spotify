@@ -10,7 +10,8 @@ import UIKit
 import SwiftUI
 
 class TabBarController: UITabBarController {
-    
+    let selectedColor = UIColor.white
+    let unselectedColor = UIColor.gray
     let profileSearchView = UIHostingController(rootView: PlaylistSearchView())
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +21,11 @@ class TabBarController: UITabBarController {
         viewControllers = [
             UINavigationController(rootViewController: profileSearchView)
         ]
+        
+        tabBar.tintColor = selectedColor
+        
+        tabBar.backgroundColor = UIColor(named: "background")
+        
+    
     }
 }
