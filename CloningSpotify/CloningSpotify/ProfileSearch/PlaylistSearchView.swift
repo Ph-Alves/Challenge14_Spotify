@@ -16,7 +16,15 @@ struct PlaylistSearchView: View {
     
     var body: some View {
         ZStack(alignment: .bottom){
-            Color.background.ignoresSafeArea()
+            LinearGradient(
+                stops: [
+                    .init(color: Color.backgroundButton, location: 0),
+                    .init(color: Color.background, location: 0.6)
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .ignoresSafeArea()
             
             ScrollView {
                 VStack{
@@ -71,7 +79,6 @@ struct PlaylistSearchView: View {
                         .frame(alignment: .center)
                         .accessibilityLabel("Playlist")
 
-                    
                     HStack {
                         Text("Now and approved indie pop. Cover: No Rome")
                             .foregroundStyle(Color.white)
