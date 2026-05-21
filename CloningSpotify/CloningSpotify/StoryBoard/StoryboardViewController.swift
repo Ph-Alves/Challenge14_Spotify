@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StoryboardViewController: UIViewController {
     
     @IBOutlet weak var table: UITableView!
     
@@ -24,6 +24,6 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate {
+extension StoryboardViewController: UITableViewDelegate {
     
 }

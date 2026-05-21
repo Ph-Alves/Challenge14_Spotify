@@ -9,19 +9,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Storyboard View Controller-->
         <scene sceneID="FCM-lc-xAp">
             <objects>
-                <viewController id="zrj-b2-VyM" customClass="ViewController" customModule="CloningSpotify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zrj-b2-VyM" customClass="StoryboardViewController" customModule="CloningSpotify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTe-tb-0yb">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nQS-Yx-XrK" userLabel="HeaderStack">
-                                <rect key="frame" x="16" y="60" width="361" height="42.333333333333343"/>
+                                <rect key="frame" x="16" y="117.99999999999999" width="361" height="42.333333333333329"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNJ-eq-9Tu">
-                                        <rect key="frame" x="0.0" y="3.6666666666666643" width="35" height="35"/>
+                                        <rect key="frame" x="0.0" y="3.6666666666666714" width="35" height="35"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão de fechar modal" label="Fechar"/>
                                         <constraints>
@@ -38,6 +38,9 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album radio based on From Me to You - Mono / Remastered" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Tu-mi-JD7">
                                         <rect key="frame" x="45" y="0.0" width="316" height="42.333333333333336"/>
                                         <accessibility key="accessibilityConfiguration" hint="Texto do album que estamos" label="Nome do album"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="I67-G8-M6R"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -51,10 +54,10 @@
                                 </constraints>
                             </stackView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJl-Rx-OHa">
-                                <rect key="frame" x="16" y="112.33333333333331" width="361" height="613.66666666666652"/>
+                                <rect key="frame" x="16" y="170.33333333333331" width="361" height="525.66666666666674"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aW8-5q-eP7">
-                                        <rect key="frame" x="0.0" y="10" width="361" height="76.333333333333329"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aW8-5q-eP7">
+                                        <rect key="frame" x="0.0" y="10" width="361" height="128.66666666666666"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now Playing" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNR-GR-7wH">
                                                 <rect key="frame" x="0.0" y="0.0" width="361" height="20.333333333333332"/>
@@ -63,8 +66,8 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xh1-Uc-5xQ">
-                                                <rect key="frame" x="0.0" y="30.333333333333329" width="361" height="46"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xh1-Uc-5xQ">
+                                                <rect key="frame" x="0.0" y="30.333333333333314" width="361" height="46"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWI-Ns-Xxy">
                                                         <rect key="frame" x="0.0" y="0.0" width="48" height="46"/>
@@ -72,37 +75,27 @@
                                                             <bool key="isElement" value="YES"/>
                                                         </accessibility>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="0RA-g5-Cpc"/>
                                                             <constraint firstAttribute="width" secondItem="lWI-Ns-Xxy" secondAttribute="height" multiplier="24:23" id="Bqj-Nq-At4"/>
-                                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="cud-zg-1Nr"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Lft-Xz-DbF">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Lft-Xz-DbF">
                                                         <rect key="frame" x="68" y="0.0" width="293" height="46"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Me to You - Mono / Remastered" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOd-Af-6vU">
-                                                                <rect key="frame" x="0.0" y="0.0" width="293" height="24.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="293" height="20.333333333333332"/>
                                                                 <accessibility key="accessibilityConfiguration" hint="From Me to You" label="Nome da música"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Washed Out" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5j-a7-EK7">
-                                                                <rect key="frame" x="0.0" y="24.333333333333343" width="293" height="21.666666666666671"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Washed Out" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5j-a7-EK7">
+                                                                <rect key="frame" x="0.0" y="20.333333333333343" width="84.333333333333329" height="25.666666666666671"/>
                                                                 <accessibility key="accessibilityConfiguration" hint="Washed Out" label="Nome do álbum"/>
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="gOd-Af-6vU" secondAttribute="trailing" id="610-KX-x0c"/>
-                                                            <constraint firstAttribute="trailing" secondItem="E5j-a7-EK7" secondAttribute="trailing" id="aEp-Da-4w2"/>
-                                                            <constraint firstAttribute="bottom" secondItem="E5j-a7-EK7" secondAttribute="bottom" id="bH4-UU-SaR"/>
-                                                            <constraint firstItem="E5j-a7-EK7" firstAttribute="leading" secondItem="Lft-Xz-DbF" secondAttribute="leading" id="gHO-d9-wTv"/>
-                                                            <constraint firstItem="gOd-Af-6vU" firstAttribute="leading" secondItem="Lft-Xz-DbF" secondAttribute="leading" id="pB4-8i-sVR"/>
-                                                            <constraint firstItem="gOd-Af-6vU" firstAttribute="top" secondItem="Lft-Xz-DbF" secondAttribute="top" id="tst-jN-T2W"/>
-                                                        </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
@@ -111,37 +104,39 @@
                                                     <constraint firstItem="Lft-Xz-DbF" firstAttribute="top" secondItem="xh1-Uc-5xQ" secondAttribute="top" id="cD5-oh-vrn"/>
                                                 </constraints>
                                             </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next From: From Me to You - Mono / Remastered" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRP-Tq-OZ0">
+                                                <rect key="frame" x="0.0" y="86.333333333333343" width="361" height="42.333333333333343"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <accessibility key="accessibilityConfiguration" hint="Próximas músicas a serem tocadas" label="Título da fila"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="QYL-v0-zuu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="xh1-Uc-5xQ" secondAttribute="trailing" id="1Sf-Uf-4mU"/>
                                             <constraint firstItem="iNR-GR-7wH" firstAttribute="leading" secondItem="aW8-5q-eP7" secondAttribute="leading" id="916-xM-M5K"/>
-                                            <constraint firstAttribute="bottom" secondItem="xh1-Uc-5xQ" secondAttribute="bottom" id="Sjd-Vg-rWI"/>
+                                            <constraint firstAttribute="trailing" secondItem="nRP-Tq-OZ0" secondAttribute="trailing" id="RUK-Ki-O8e"/>
                                             <constraint firstItem="xh1-Uc-5xQ" firstAttribute="leading" secondItem="aW8-5q-eP7" secondAttribute="leading" id="TNt-H2-gsF"/>
                                             <constraint firstItem="xh1-Uc-5xQ" firstAttribute="leading" secondItem="aW8-5q-eP7" secondAttribute="leading" id="Yrk-Fj-loG"/>
+                                            <constraint firstItem="nRP-Tq-OZ0" firstAttribute="top" secondItem="xh1-Uc-5xQ" secondAttribute="bottom" constant="10" id="Zs6-hS-lvV"/>
                                             <constraint firstItem="iNR-GR-7wH" firstAttribute="top" secondItem="aW8-5q-eP7" secondAttribute="top" id="a0f-K0-sPG"/>
                                             <constraint firstAttribute="trailing" secondItem="xh1-Uc-5xQ" secondAttribute="trailing" id="aCT-Ji-kp7"/>
-                                            <constraint firstItem="xh1-Uc-5xQ" firstAttribute="top" secondItem="iNR-GR-7wH" secondAttribute="bottom" constant="10" id="wcm-Pp-1B7"/>
                                             <constraint firstAttribute="trailing" secondItem="iNR-GR-7wH" secondAttribute="trailing" id="yZP-uW-8IY"/>
+                                            <constraint firstItem="nRP-Tq-OZ0" firstAttribute="leading" secondItem="aW8-5q-eP7" secondAttribute="leading" id="yvs-5w-OhX"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="106" id="z4B-k6-MaF"/>
                                         </constraints>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next From: From Me to You - Mono / Remastered" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRP-Tq-OZ0">
-                                        <rect key="frame" x="0.0" y="101.33333333333333" width="361" height="42.333333333333329"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <accessibility key="accessibilityConfiguration" hint="Próximas músicas a serem tocadas" label="Título da fila"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="QYL-v0-zuu"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" sectionIndexMinimumDisplayRowCount="8" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="60" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Yd9-cx-zl2">
-                                        <rect key="frame" x="0.0" y="163.66666666666669" width="361" height="450.00000000000006"/>
+                                        <rect key="frame" x="0.0" y="138.66666666666663" width="361" height="420"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="450" id="tn7-fX-5Lc"/>
+                                            <constraint firstAttribute="height" constant="420" id="JAV-2O-6zn"/>
                                         </constraints>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="60" id="HK8-Lx-3Tt" customClass="TableViewCell" customModule="CloningSpotify" customModuleProvider="target">
@@ -235,37 +230,34 @@
                                     <constraint firstItem="NpR-OR-nUC" firstAttribute="trailing" secondItem="aW8-5q-eP7" secondAttribute="trailing" id="7Ka-dX-zUU"/>
                                     <constraint firstItem="Yd9-cx-zl2" firstAttribute="leading" secondItem="NpR-OR-nUC" secondAttribute="leading" id="Fnc-H2-O7X"/>
                                     <constraint firstItem="NpR-OR-nUC" firstAttribute="trailing" secondItem="Yd9-cx-zl2" secondAttribute="trailing" id="IeR-cX-MZr"/>
-                                    <constraint firstItem="nRP-Tq-OZ0" firstAttribute="leading" secondItem="NpR-OR-nUC" secondAttribute="leading" id="MXo-YL-RrB"/>
                                     <constraint firstItem="aW8-5q-eP7" firstAttribute="leading" secondItem="NpR-OR-nUC" secondAttribute="leading" id="Z5F-mQ-TLw"/>
-                                    <constraint firstItem="NpR-OR-nUC" firstAttribute="trailing" secondItem="nRP-Tq-OZ0" secondAttribute="trailing" id="h8a-2D-sZn"/>
-                                    <constraint firstItem="nRP-Tq-OZ0" firstAttribute="top" secondItem="aW8-5q-eP7" secondAttribute="bottom" constant="15" id="oLa-zB-3ph"/>
+                                    <constraint firstItem="W3q-HL-Cjd" firstAttribute="bottom" secondItem="Yd9-cx-zl2" secondAttribute="bottom" id="ibn-Nr-kXJ"/>
                                     <constraint firstItem="aW8-5q-eP7" firstAttribute="top" secondItem="W3q-HL-Cjd" secondAttribute="top" constant="10" id="oaM-3D-DHd"/>
+                                    <constraint firstItem="Yd9-cx-zl2" firstAttribute="top" secondItem="aW8-5q-eP7" secondAttribute="bottom" id="p5A-YS-r89"/>
                                     <constraint firstItem="Yd9-cx-zl2" firstAttribute="width" secondItem="W3q-HL-Cjd" secondAttribute="width" id="qnd-Hz-ffq"/>
-                                    <constraint firstItem="W3q-HL-Cjd" firstAttribute="bottom" secondItem="Yd9-cx-zl2" secondAttribute="bottom" id="qo4-La-bl3"/>
-                                    <constraint firstItem="Yd9-cx-zl2" firstAttribute="top" secondItem="nRP-Tq-OZ0" secondAttribute="bottom" constant="20" id="uqP-Rg-uJG"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="W3q-HL-Cjd"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="NpR-OR-nUC"/>
                             </scrollView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j4Z-0a-Qvl" userLabel="footerStack">
-                                <rect key="frame" x="16" y="731" width="361" height="81"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="j4Z-0a-Qvl" userLabel="footerStack">
+                                <rect key="frame" x="16" y="704" width="361" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpx-ag-O27">
-                                        <rect key="frame" x="19.999999999999996" y="21.000000000000004" width="53.666666666666657" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="60"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão que aleatoriza as músicas da fila" label="Shuffle"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="shuffle" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoU-qd-fPU">
-                                        <rect key="frame" x="88.333333333333329" y="21.000000000000004" width="48.666666666666671" height="34.333333333333343"/>
+                                        <rect key="frame" x="78.333333333333329" y="0.0" width="48.666666666666671" height="60"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão de voltar a música" label="Voltar"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="backward.end.fill" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5j8-Qc-YQj">
-                                        <rect key="frame" x="151.66666666666666" y="8" width="60" height="60"/>
+                                        <rect key="frame" x="151.66666666666666" y="0.0" width="60" height="60"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão de tocar música" label="Play"/>
                                         <constraints>
@@ -281,14 +273,14 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSA-OK-ZJt">
-                                        <rect key="frame" x="226" y="21.000000000000004" width="48.666666666666686" height="34.333333333333343"/>
+                                        <rect key="frame" x="235.99999999999997" y="0.0" width="48.666666666666657" height="60"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão de próxima música" label="Next"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="forward.end.fill" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kR-vm-hSQ">
-                                        <rect key="frame" x="289.33333333333331" y="21.000000000000004" width="51.666666666666686" height="34.333333333333343"/>
+                                        <rect key="frame" x="309.33333333333331" y="0.0" width="51.666666666666686" height="60"/>
                                         <accessibility key="accessibilityConfiguration" hint="Botão de repetir música ou álbum." label="Rewind"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -296,22 +288,21 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <edgeInsets key="layoutMargins" top="8" left="20" bottom="-15" right="20"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bO4-SZ-5Ih"/>
                         <color key="backgroundColor" red="0.063334968389999968" green="0.063334968389999968" blue="0.063334968389999968" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="KJl-Rx-OHa" firstAttribute="top" secondItem="nQS-Yx-XrK" secondAttribute="bottom" constant="10" id="0eU-Do-KHI"/>
-                            <constraint firstAttribute="bottom" secondItem="j4Z-0a-Qvl" secondAttribute="bottom" constant="40" id="5yX-lZ-Yeq"/>
-                            <constraint firstItem="j4Z-0a-Qvl" firstAttribute="top" secondItem="KJl-Rx-OHa" secondAttribute="bottom" constant="5" id="CFS-z8-Xfk"/>
                             <constraint firstItem="nQS-Yx-XrK" firstAttribute="leading" secondItem="bO4-SZ-5Ih" secondAttribute="leading" constant="16" id="MWf-eT-wd4"/>
                             <constraint firstItem="bO4-SZ-5Ih" firstAttribute="trailing" secondItem="KJl-Rx-OHa" secondAttribute="trailing" constant="16" id="Phv-cj-92U"/>
                             <constraint firstItem="KJl-Rx-OHa" firstAttribute="leading" secondItem="bO4-SZ-5Ih" secondAttribute="leading" constant="16" id="UnN-LM-eSJ"/>
                             <constraint firstItem="bO4-SZ-5Ih" firstAttribute="trailing" secondItem="nQS-Yx-XrK" secondAttribute="trailing" constant="16" id="WDx-00-tee"/>
-                            <constraint firstItem="nQS-Yx-XrK" firstAttribute="top" secondItem="sTe-tb-0yb" secondAttribute="top" constant="60" id="gec-B9-jLZ"/>
+                            <constraint firstItem="j4Z-0a-Qvl" firstAttribute="top" secondItem="KJl-Rx-OHa" secondAttribute="bottom" constant="8" id="WVq-Bi-ovm"/>
+                            <constraint firstItem="nQS-Yx-XrK" firstAttribute="top" secondItem="bO4-SZ-5Ih" secondAttribute="top" id="gec-B9-jLZ"/>
                             <constraint firstItem="j4Z-0a-Qvl" firstAttribute="leading" secondItem="bO4-SZ-5Ih" secondAttribute="leading" constant="16" id="hWv-JB-kKR"/>
                             <constraint firstItem="bO4-SZ-5Ih" firstAttribute="trailing" secondItem="j4Z-0a-Qvl" secondAttribute="trailing" constant="16" id="t2x-d6-CGq"/>
+                            <constraint firstItem="bO4-SZ-5Ih" firstAttribute="bottom" secondItem="j4Z-0a-Qvl" secondAttribute="bottom" constant="20" id="tye-Rz-Hl6"/>
                         </constraints>
                     </view>
                     <connections>
@@ -335,10 +326,10 @@
         <image name="shuffle" catalog="system" width="128" height="95"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
