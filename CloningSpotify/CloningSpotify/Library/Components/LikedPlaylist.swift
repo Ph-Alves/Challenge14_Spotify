@@ -29,6 +29,7 @@ struct LikedPlaylist: View {
             VStack(alignment: .leading) {
                 Text("Liked Songs")
                     .lineLimit(1)
+                    .foregroundStyle(.white)
                     .font(.headline)
                 
                 HStack {

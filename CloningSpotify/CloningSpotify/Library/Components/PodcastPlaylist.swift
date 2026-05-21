@@ -27,6 +27,7 @@ struct PodcastPlaylist: View {
             VStack(alignment: .leading) {
                 Text("New Episodes")
                     .lineLimit(1)
+                    .foregroundStyle(.white)
                     .font(.headline)
                 
                 HStack {

@@ -20,6 +20,7 @@ struct CustomPlaylist: View {
             VStack(alignment: .leading) {
                 Text("Front Left")
                     .lineLimit(1)
+                    .foregroundStyle(.white)
                     .font(.headline)
                 Text("Playlist • Spotify")
                     .lineLimit(2)

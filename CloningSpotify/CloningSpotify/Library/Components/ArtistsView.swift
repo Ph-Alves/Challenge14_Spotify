@@ -23,6 +23,7 @@ struct ArtistsView: View {
             VStack(alignment: .leading) {
                 Text(artistName)
                     .lineLimit(1)
+                    .foregroundStyle(.white)
                     .font(.headline)
                 Text("Artist")
                     .lineLimit(1)

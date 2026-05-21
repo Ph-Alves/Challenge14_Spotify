@@ -16,7 +16,7 @@ struct FilterButton: View {
         } label: {
             Text(buttonLabel)
                 .lineLimit(2)
-                .foregroundStyle(.foreground)
+                .foregroundStyle(.white)
                 .font(.caption)
                 .fontWeight(.medium)
                 .padding(14)

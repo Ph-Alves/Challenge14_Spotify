@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@ by %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ by %2$@"
+          }
+        }
+      }
+    },
     "%@ photo" : {
       "localizations" : {
         "ar" : {
@@ -10,6 +20,15 @@
           }
         }
       }
+    },
+    "1.629,592 likes" : {
+
+    },
+    "6 hours 48 minutes" : {
+
+    },
+    "Add playlist to favorites" : {
+
     },
     "Albuns" : {
       "localizations" : {
@@ -41,6 +60,18 @@
         }
       }
     },
+    "BEATSPILL+" : {
+
+    },
+    "Bluetooth" : {
+
+    },
+    "Bluetooth conected to BEATSPILL+" : {
+
+    },
+    "Change current device connected by bluetooth" : {
+
+    },
     "Change view format" : {
       "localizations" : {
         "ar" : {
@@ -60,6 +91,12 @@
           }
         }
       }
+    },
+    "Download" : {
+
+    },
+    "Download songs from playlist" : {
+
     },
     "E" : {
       "localizations" : {
@@ -81,6 +118,12 @@
         }
       }
     },
+    "Find in playlist" : {
+
+    },
+    "Find songs in playlist" : {
+
+    },
     "Front Left" : {
       "localizations" : {
         "ar" : {
@@ -90,6 +133,9 @@
           }
         }
       }
+    },
+    "Heart" : {
+
     },
     "Les" : {
       "localizations" : {
@@ -111,6 +157,15 @@
         }
       }
     },
+    "More" : {
+
+    },
+    "More option about song" : {
+
+    },
+    "More options in playlist" : {
+
+    },
     "New Episodes" : {
       "localizations" : {
         "ar" : {
@@ -121,6 +176,15 @@
         }
       }
     },
+    "Now and approved indie pop. Cover: No Rome" : {
+
+    },
+    "Number of likes" : {
+
+    },
+    "Pause" : {
+
+    },
     "Pinned item" : {
       "localizations" : {
         "ar" : {
@@ -130,6 +194,12 @@
           }
         }
       }
+    },
+    "Play" : {
+
+    },
+    "Playlist" : {
+
     },
     "Playlist • 58 songs" : {
       "localizations" : {
@@ -150,6 +220,9 @@
           }
         }
       }
+    },
+    "Playlist time" : {
+
     },
     "Playlists" : {
       "localizations" : {
@@ -181,6 +254,9 @@
         }
       }
     },
+    "Search bar" : {
+
+    },
     "Song • Childish Gambino" : {
       "localizations" : {
         "ar" : {
@@ -191,6 +267,25 @@
         }
       }
     },
+    "Song artist" : {
+
+    },
+    "Song name" : {
+
+    },
+    "Song playing %@ by %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Song playing %1$@ by %2$@"
+          }
+        }
+      }
+    },
+    "Sort" : {
+
+    },
     "Sort by" : {
       "localizations" : {
         "ar" : {
@@ -200,6 +295,15 @@
           }
         }
       }
+    },
+    "Spotify" : {
+
+    },
+    "Spotify icon" : {
+
+    },
+    "Start playlist" : {
+
     },
     "Tap to filter your Library" : {
       "localizations" : {

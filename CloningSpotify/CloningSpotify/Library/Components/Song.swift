@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Song: View {
+struct LibrarySong: View {
     @ScaledMetric var songPicSize: CGFloat = 67
     @ScaledMetric var explicitMarker: CGFloat = 13
     @ScaledMetric(relativeTo: .caption2) var spacing: CGFloat = 8
@@ -22,6 +22,7 @@ struct Song: View {
             VStack(alignment: .leading) {
                 Text("Les")
                     .lineLimit(1)
+                    .foregroundStyle(.white)
                     .font(.headline)
                 HStack {
                     RoundedRectangle(cornerRadius: 4)
@@ -47,5 +48,5 @@ struct Song: View {
 }
 
 #Preview {
-    Song()
+    LibrarySong()
 }
