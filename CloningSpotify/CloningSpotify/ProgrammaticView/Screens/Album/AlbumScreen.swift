@@ -187,11 +187,12 @@ class AlbumScreen: UIViewController {
         stackView.addArrangedSubview(musicsVStack)
         
         for music in musics {
-            let card = MusicCardView(music: music)
-            
-            musicsVStack.addArrangedSubview(card)
+            for music in musics {
+                let card = MusicCardView(music: music)
+                
+                musicsVStack.addArrangedSubview(card)
+            }
         }
-        
     }
     
     /*
